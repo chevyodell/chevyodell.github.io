@@ -1,0 +1,31 @@
+html{
+  /* height: 100%; */
+}
+
+body{
+  /* background-attachment: fixed;
+  background-image: linear-gradient(to bottom, #ffff99 0%, #ff6600 100%);
+  background-position: bottom;
+  background-repeat: repeat-x, no-repeat; */
+}
+
+.title{
+    text-align: center;
+    font-family: monospace;
+    font-size: 84px;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-family: monospace;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
