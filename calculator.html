@@ -1,0 +1,97 @@
+<!--
+  Assignment 2 - CPSC 513 - Winter 2020
+  Author: Siobhan Chevy O'Dell
+  UCID: 30019806
+  Last revision: 09/02/2020
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link href="assign2.css" rel="stylesheet">
+
+    <title> Calculator Simulator</title>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <!-- My JS -->
+    <script src="calculator.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="container justify-content-center">
+      <div class="col">
+
+        <div class="row justify-content-center">
+          <div class="previousBox">
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+           <div class="outputBox">
+           </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="btn-group btn-group-lg btn-block" role="group" aria-label="row-1">
+              <button type="button" class="btn btn-outline-primary" id="left-bracket">(</button>
+              <button type="button" class="btn btn-outline-primary" id="right-bracket">)</button>
+              <button type="button" class="btn btn-outline-primary" id="backspace">CA</button>
+              <button type="button" class="btn btn-outline-primary" id="clear">C</button>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="btn-group btn-group-lg btn-block" role="group" aria-label="row-2">
+              <button type="button" class="btn btn-outline-primary" id="seven">7</button>
+              <button type="button" class="btn btn-outline-primary" id="eight">8</button>
+              <button type="button" class="btn btn-outline-primary" id="nine">9</button>
+              <button type="button" class="btn btn-outline-primary" id="divide">/</button>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="btn-group btn-group-lg btn-block" role="group" aria-label="row-3">
+              <button type="button" class="btn btn-outline-primary" id="four">4</button>
+              <button type="button" class="btn btn-outline-primary" id="five">5</button>
+              <button type="button" class="btn btn-outline-primary" id="six">6</button>
+              <button type="button" class="btn btn-outline-primary" id="multiply">x</button>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="btn-group btn-group-lg btn-block" role="group" aria-label="row-4">
+              <button type="button" class="btn btn-outline-primary" id="one">1</button>
+              <button type="button" class="btn btn-outline-primary" id="two">2</button>
+              <button type="button" class="btn btn-outline-primary" id="three">3</button>
+              <button type="button" class="btn btn-outline-primary" id="negative">-</button>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="btn-group btn-group-lg btn-block" role="group" aria-label="row-5">
+              <button type="button" class="btn btn-outline-primary" id="zero">0</button>
+              <button type="button" class="btn btn-outline-primary" id="decimal">.</button>
+              <button type="button" class="btn btn-outline-primary" id="equals">=</button>
+              <button type="button" class="btn btn-outline-primary" id="addition">+</button>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <img src="basicImg.png" alt="Calculator Simulator 2020 Edition">
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

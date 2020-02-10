@@ -1,0 +1,46 @@
+/*
+  Assignment 2 - CPSC 513 - Winter 2020
+  Author: Siobhan Chevy O'Dell
+  UCID: 30019806
+  Last revision: 09/02/2020
+*/
+
+/******* TEXTBOX FORMATTING *******/
+
+.outputBox{
+    text-align: right;
+    padding: 14px 24px;
+    font-weight: 700;
+    font-size: 2em;
+    letter-spacing: 3px;
+    color: #007bff;
+    width: 600px;
+    min-height: 2.4em;
+    word-wrap: break-word;
+}
+
+.previousBox{
+    text-align: right;
+    padding: 14px 24px;
+    font-weight: 500;
+    font-size: 1em;
+    letter-spacing: 3px;
+    color: lightgrey;
+    width: 600px;
+    min-height: 3.4em;
+    word-wrap: break-word;
+}
+
+/******* BUTTON FORMATTING *******/
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.btn-group{
+    width: 600px;
+}
