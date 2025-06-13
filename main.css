@@ -1,8 +1,5 @@
 /*
-  Assignment 1 - CPSC 513 - Winter 2020
-  Author: Siobhan Chevy O'Dell
-  UCID: 30019806
-  Last revision: 02/02/2020
+  chevyodell.github.io main page style sheet
 */
 
 /******* GENERAL FORMATTING *******/
@@ -63,26 +60,6 @@ p, ul{
   height: 100vh;
 }
 
-.indeximg {
-  width: auto;
-  height: 100vh;
-  overflow: hidden;
-  position: static;
-}
-
-.fulltitle{
-  font-family: monospace;
-  text-transform: uppercase;
-  letter-spacing: .20em;
-  font-size: 3em;
-  font-weight: bold;
-  color: white;
-  text-align: center;
-  position: absolute;
-  bottom: 50vh;
-  left: 50vw;
-}
-
 /******* PAGE FORMATTING *******/
 
 .paintingtitle{
@@ -96,16 +73,6 @@ p, ul{
   text-align: center;
 }
 
-.fullimgportrait {
-  height: 85vh;
-  margin: 10px;
-}
-
-.fullimglandscape {
-  width: 98vw;
-  margin: 10px;
-}
-
 .container{
   display: flex;
   padding: 5px;
@@ -116,11 +83,4 @@ p, ul{
   display: flex;
   margin-left: 25px;
   margin-right: 25px;
-}
-
-.largeimageinformation{
-  display: flex;
-  margin-left: 25px;
-  margin-right: 25px;
-  width: 30vw;
 }
